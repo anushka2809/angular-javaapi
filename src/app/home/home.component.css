@@ -1,0 +1,60 @@
+.body{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+    height: auto;
+	background-image: url('http://ginva.com/wp-content/uploads/2012/07/city-skyline-wallpapers-008.jpg');
+	background-size: cover;
+	-webkit-filter: blur(5px);
+	z-index: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+
+	color: #fff;
+	font-family: Arial;
+	font-size: 12px;
+}
+.button{
+	position: absolute;
+	top: calc(50% - 75px);
+	left: calc(50% - 50px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+.button{
+	width: 260px;
+	height: 35px;
+	background: transparent;
+	border: 1px solid transparent;
+	cursor: pointer;
+	border-radius: 2px;
+	color:  rgb(45, 9, 104) !important;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+    margin-top: 10px;
+    position:absolute;
+    top:0;
+    right:0;
+    text-align:right;
+}
+
+.button:hover{
+	opacity: 0.8;
+}
+
+.button:active{
+	opacity: 0.6;
+}
+.button:focus{
+	outline: none;
+}
